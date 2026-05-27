@@ -23,7 +23,7 @@ export default {
       {
         // handle CSS imports
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ["style-loader", "css-loader", "postcss-loader"],
       },
       {
         // handle image src paths in HTML
